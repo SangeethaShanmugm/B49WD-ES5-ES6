@@ -107,7 +107,7 @@ console.log(PrintDetails2(student1));
 //function destructure - ES6
 //Template literals = `` +  ${} => interpolation => substitute the value
 
-function PrintDetails3({ name, score, batch }) { 
+function PrintDetails3({ name, score, batch }) {
   return `${name} has got ${score} and he belongs to ${batch}`;
 }
 
@@ -115,7 +115,7 @@ console.log(PrintDetails3(student1));
 
 //Arrow function + Template literals + Destructuring
 
-const PrintDetails4 = ({ name, score, batch }) => `${name} has got ${score} and he belongs to ${batch}`;
-
+const PrintDetails4 = ({ name, score, batch }) =>
+  `${name} has got ${score} and he belongs to ${batch}`;
 
 console.log(PrintDetails4(student1));

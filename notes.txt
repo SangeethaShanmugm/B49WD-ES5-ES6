@@ -1,0 +1,7 @@
+2 js file type
+1. commonJs - ES5
+modules.exports = functionName
+require(filename)
+2. moduleJs - ES5 & ES6
+export functionName
+import functionName
